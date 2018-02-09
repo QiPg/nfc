@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">地磁近端配置工具</string>
+    <string name="network_mode">找网方式：</string>
+    <string name="server_address">服务器地址：</string>
+    <string name="access_number">入网频点号：</string>
+    <string name="server_port">服务器端口号：</string>
+    <string name="heartbeat">心跳包周期：</string>
+    <string name="power_notice">电量警告阈值：</string>
+    <string name="time">时间：</string>
+    <string name="detection">检测精度</string>
+    <string name="power">当前电量：</string>
+    <string name="call_satus">上报成功率：</string>
+    <string name="log">日志：</string>
+    <string name="network_mode_qh">切换找网方式</string>
+    <string name="read_but">读取</string>
+    <string name="set_but">设置</string>
+
+    <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="select_date">选择日期</string>
+    <string name="current_date">当前日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+
+</resources>

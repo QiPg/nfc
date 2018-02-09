@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- 自定义标题 -->
+    <include layout="@layout/activity_title" />
+    <TextView
+        android:paddingBottom="20dp"
+        android:paddingTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请将手机背面靠近车检器检查设备是否已激活" />
+    <ImageView
+        android:id="@+id/apa_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/bg_beij"/>
+   <TextView
+       android:id="@+id/app_version"
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=""/>
+    <TextView
+        android:textColor="#ff0000"
+        android:textSize="18sp"
+        android:id="@+id/apa_text"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+       android:background="@drawable/buttom_border_radius"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center"
+        android:id="@+id/apa_but"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="激活" />
+    <Button
+        android:visibility="gone"
+        android:text="临时操作"
+        android:id="@+id/kfa"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

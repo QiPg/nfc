@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+    <TextView
+        android:id="@+id/f_xuhao"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="01"/>
+
+    <TextView
+        android:id="@+id/f_caozuo"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="设置找网方式"/>
+
+    <TextView
+        android:layout_weight="2.5"
+        android:id="@+id/f_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2015-15-22 22:22"/>
+</LinearLayout>
